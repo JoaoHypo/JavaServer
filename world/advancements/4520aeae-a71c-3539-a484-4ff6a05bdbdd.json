@@ -1,0 +1,11 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:dripstone_caves": "2023-02-12 17:36:03 -0300",
+      "minecraft:savanna": "2023-02-12 17:32:42 -0300",
+      "minecraft:plains": "2023-02-12 17:35:42 -0300"
+    },
+    "done": false
+  },
+  "DataVersion": 3218
+}

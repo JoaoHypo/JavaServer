@@ -1,26 +1,145 @@
-[16:56:05] [ServerMain/INFO]: Building unoptimized datafixer
-[16:56:10] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16:56:11] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[16:56:20] [ServerMain/INFO]: Loaded 7 recipes
-[16:56:24] [Server thread/INFO]: Starting minecraft server version 1.19.3
-[16:56:24] [Server thread/INFO]: Loading properties
-[16:56:24] [Server thread/INFO]: This server is running Paper version git-Paper-396 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: bd77b78)
-[16:56:24] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:56:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:56:25] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[16:56:26] [Server thread/INFO]: Default game type: SURVIVAL
-[16:56:26] [Server thread/INFO]: Generating keypair
-[16:56:27] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:56:27] [Server thread/INFO]: Using default channel type
-[16:56:27] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[16:56:27] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[16:56:28] [Server thread/INFO]: Preparing level "world"
-[16:57:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:57:03] [Server thread/INFO]: Time elapsed: 180 ms
-[16:57:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:57:03] [Server thread/INFO]: Time elapsed: 110 ms
-[16:57:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:57:03] [Server thread/INFO]: Time elapsed: 131 ms
-[16:57:03] [Server thread/INFO]: Running delayed init tasks
-[16:57:03] [Server thread/INFO]: Done (39.232s)! For help, type "help"
-[16:57:03] [Server thread/INFO]: Timings Reset
+[17:30:40] [ServerMain/INFO]: Building unoptimized datafixer
+[17:30:45] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:31:14] [ServerMain/INFO]: Loaded 7 recipes
+[17:31:16] [Server thread/INFO]: Starting minecraft server version 1.19.3
+[17:31:16] [Server thread/INFO]: Loading properties
+[17:31:16] [Server thread/INFO]: This server is running Paper version git-Paper-396 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: bd77b78)
+[17:31:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:31:16] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:31:17] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[17:31:17] [Server thread/INFO]: Default game type: SURVIVAL
+[17:31:17] [Server thread/INFO]: Generating keypair
+[17:31:18] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:31:18] [Server thread/INFO]: Using default channel type
+[17:31:18] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[17:31:18] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[17:31:20] [Server thread/INFO]: [floodgate] Loading floodgate v2.2.0-SNAPSHOT (b74-4f36112)
+[17:31:21] [Server thread/INFO]: [floodgate] Took 1,381ms to boot Floodgate
+[17:31:21] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.1.0-SNAPSHOT
+[17:31:23] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[17:31:23] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[17:31:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:31:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:31:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:31:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:31:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:31:23] [Server thread/INFO]: Preparing level "world"
+[17:31:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:31:26] [Server thread/INFO]: Time elapsed: 541 ms
+[17:31:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:31:26] [Server thread/INFO]: Time elapsed: 71 ms
+[17:31:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:31:26] [Server thread/INFO]: Time elapsed: 59 ms
+[17:31:26] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.0-SNAPSHOT (b74-4f36112)
+[17:31:29] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.0-SNAPSHOT
+[17:31:29] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[17:31:29] [Server thread/INFO]: [Geyser-Spigot] 
+[17:31:29] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.1.0-SNAPSHOT (git-master-f9705c1)
+[17:31:29] [Server thread/INFO]: [Geyser-Spigot] 
+[17:31:29] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[17:31:40] [Network Listener - #1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
+[17:31:40] [Server thread/INFO]: [Geyser-Spigot] Done (11.589s)! Run /geyser help for help!
+[17:31:40] [Server thread/INFO]: Running delayed init tasks
+[17:31:40] [Server thread/INFO]: Done (24.322s)! For help, type "help"
+[17:31:40] [Server thread/INFO]: Timings Reset
+[17:32:23] [User Authenticator #0/INFO]: UUID of player TW3LFTH is 4520aeae-a71c-3539-a484-4ff6a05bdbdd
+[17:32:33] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-396 (MC: 1.19.3) ---
+[17:32:33] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[17:32:33] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:32:33] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[17:32:33] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk wait task info below: 
+[17:32:33] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk wait: [( 1,-4) in 'world']
+[17:32:33] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk holder: NewChunkHolder{world=world, chunkX=1, chunkZ=-4, entityChunkFromDisk=false, lastChunkCompletion={chunk_class=net.minecraft.world.level.chunk.ProtoChunk,status=minecraft:features}, currentGenStatus=minecraft:features, requestedGenStatus=minecraft:full, generationTask=null, generationTaskStatus=null, priority=BLOCKING, priorityLocked=false, neighbourRequestedPriority=IDLE, effective_priority=BLOCKING, oldTicketLevel=31, currentTicketLevel=31, totalNeighboursUsingThisChunk=25, fullNeighbourChunksLoadedBitset=133120, chunkStatusRaw=0, currentChunkStatus=INACCESSIBLE, pendingChunkStatus=INACCESSIBLE, is_unload_safe=ticket_level, killed=false}
+[17:32:33] [Paper Watchdog Thread/ERROR]: Handling packet for connection: net.minecraft.server.network.LoginListener@48e50078
+[17:32:33] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:32:33] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[17:32:33] [Paper Watchdog Thread/ERROR]: 	PID: 25 | Suspended: false | Native: false | State: RUNNABLE
+[17:32:33] [Paper Watchdog Thread/ERROR]: 	Stack:
+[17:32:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135)
+[17:32:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.getChunk(ServerChunkCache.java:451)
+[17:32:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getChunk(Level.java:501)
+[17:32:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getChunk(Level.java:441)
+[17:32:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.PlayerRespawnLogic.getOverworldRespawnPos(PlayerRespawnLogic.java:18)
+[17:32:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.fudgeSpawnLocation(ServerPlayer.java:436)
+[17:32:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:237)
+[17:32:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.placeNewPlayer(ServerLoginPacketListenerImpl.java:202)
+[17:32:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.handleAcceptedLogin(ServerLoginPacketListenerImpl.java:183)
+[17:32:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.tick(ServerLoginPacketListenerImpl.java:85)
+[17:32:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:585)
+[17:32:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:233)
+[17:32:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1565)
+[17:32:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447)
+[17:32:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1397)
+[17:32:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1173)
+[17:32:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316)
+[17:32:33] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4377/0x000000080152cdf0.run(Unknown Source)
+[17:32:33] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+[17:32:33] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:32:33] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[17:32:33] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:32:38] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-396 (MC: 1.19.3) ---
+[17:32:38] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[17:32:38] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:32:38] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[17:32:38] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk wait task info below: 
+[17:32:38] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk wait: [( 1,-4) in 'world']
+[17:32:38] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk holder: NewChunkHolder{world=world, chunkX=1, chunkZ=-4, entityChunkFromDisk=false, lastChunkCompletion={chunk_class=net.minecraft.world.level.chunk.ProtoChunk,status=minecraft:features}, currentGenStatus=minecraft:features, requestedGenStatus=minecraft:full, generationTask=null, generationTaskStatus=null, priority=BLOCKING, priorityLocked=false, neighbourRequestedPriority=IDLE, effective_priority=BLOCKING, oldTicketLevel=31, currentTicketLevel=31, totalNeighboursUsingThisChunk=14, fullNeighbourChunksLoadedBitset=133120, chunkStatusRaw=0, currentChunkStatus=INACCESSIBLE, pendingChunkStatus=INACCESSIBLE, is_unload_safe=ticket_level, killed=false}
+[17:32:38] [Paper Watchdog Thread/ERROR]: Handling packet for connection: net.minecraft.server.network.LoginListener@48e50078
+[17:32:38] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:32:38] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[17:32:38] [Paper Watchdog Thread/ERROR]: 	PID: 25 | Suspended: false | Native: false | State: TIMED_WAITING
+[17:32:38] [Paper Watchdog Thread/ERROR]: 	Stack:
+[17:32:38] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+[17:32:38] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.6/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[17:32:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.waitForTasks(BlockableEventLoop.java:148)
+[17:32:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:137)
+[17:32:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.getChunk(ServerChunkCache.java:451)
+[17:32:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getChunk(Level.java:501)
+[17:32:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getChunk(Level.java:441)
+[17:32:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.PlayerRespawnLogic.getOverworldRespawnPos(PlayerRespawnLogic.java:18)
+[17:32:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.fudgeSpawnLocation(ServerPlayer.java:436)
+[17:32:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:237)
+[17:32:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.placeNewPlayer(ServerLoginPacketListenerImpl.java:202)
+[17:32:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.handleAcceptedLogin(ServerLoginPacketListenerImpl.java:183)
+[17:32:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.tick(ServerLoginPacketListenerImpl.java:85)
+[17:32:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.tick(Connection.java:585)
+[17:32:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:233)
+[17:32:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1565)
+[17:32:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447)
+[17:32:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1397)
+[17:32:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1173)
+[17:32:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316)
+[17:32:38] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4377/0x000000080152cdf0.run(Unknown Source)
+[17:32:38] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+[17:32:38] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:32:38] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[17:32:38] [Paper Watchdog Thread/ERROR]: ------------------------------
+[17:32:41] [Server thread/INFO]: TW3LFTH joined the game
+[17:32:41] [Server thread/INFO]: TW3LFTH[/127.0.0.1:64624] logged in with entity id 3 at ([world]23.5, 67.0, -56.5)
+[17:32:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17637ms or 352 ticks behind
+[17:34:27] [Server thread/INFO]: Made TW3LFTH a server operator
+[17:34:34] [Server thread/INFO]: TW3LFTH issued server command: /game
+[17:34:39] [Server thread/INFO]: TW3LFTH issued server command: /gamemode
+[17:34:45] [Server thread/INFO]: TW3LFTH issued server command: /gamemode creative
+[17:34:45] [Server thread/INFO]: [TW3LFTH: Set own game mode to Creative Mode]
+[17:35:03] [Server thread/INFO]: TW3LFTH issued server command: /kill
+[17:35:03] [Server thread/INFO]: TW3LFTH fell out of the world
+[17:35:03] [Server thread/INFO]: [TW3LFTH: Killed TW3LFTH]
+[17:35:39] [Server thread/INFO]: TW3LFTH issued server command: /teleport 120 120 120
+[17:35:39] [Server thread/INFO]: [TW3LFTH: Teleported TW3LFTH to 120.500000, 120.000000, 120.500000]
+[17:35:42] [Server thread/WARN]: TW3LFTH moved too quickly! 0.0,-10.806526110008988,0.0
+[17:36:02] [Server thread/INFO]: TW3LFTH issued server command: /teleport 0 0 0
+[17:36:02] [Server thread/INFO]: [TW3LFTH: Teleported TW3LFTH to 0.500000, 0.000000, 0.500000]
+[17:36:02] [Server thread/WARN]: TW3LFTH moved too quickly! -119.99948801646681,-82.15355931909663,-119.96118085709199
+[17:36:26] [Server thread/INFO]: TW3LFTH issued server command: /kill
+[17:36:26] [Server thread/INFO]: TW3LFTH fell out of the world
+[17:36:26] [Server thread/INFO]: [TW3LFTH: Killed TW3LFTH]
+[17:36:40] [Server thread/INFO]: TW3LFTH issued server command: /spawn
+[17:36:49] [Server thread/INFO]: TW3LFTH issued server command: /spawnpoint set
+[17:37:01] [Server thread/INFO]: TW3LFTH issued server command: /spawnpoint TW3LFTH
+[17:37:01] [Server thread/INFO]: [TW3LFTH: Set spawn point to -9, 68, -64 [0.0] in minecraft:overworld for TW3LFTH]
+[17:37:54] [Server thread/INFO]: TW3LFTH issued server command: /kill
+[17:37:54] [Server thread/INFO]: TW3LFTH fell out of the world
+[17:37:54] [Server thread/INFO]: [TW3LFTH: Killed TW3LFTH]
+[17:39:48] [Server thread/INFO]: TW3LFTH lost connection: Disconnected
+[17:39:48] [Server thread/INFO]: TW3LFTH left the game
