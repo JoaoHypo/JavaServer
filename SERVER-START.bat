@@ -1,3 +1,3 @@
 @echo off
-java -Xmx2048M -Xms2048M -jar papermc.jar nogui
+java -Xmx8192M -Xms8192M -jar papermc.jar nogui
 PAUSE
