@@ -1,76 +1,85 @@
-[15:31:57] [ServerMain/INFO]: Building unoptimized datafixer
-[15:31:58] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[15:32:00] [ServerMain/INFO]: Loaded 7 recipes
-[15:32:00] [Server thread/INFO]: Starting minecraft server version 1.19.3
-[15:32:00] [Server thread/INFO]: Loading properties
-[15:32:00] [Server thread/INFO]: This server is running Paper version git-Paper-396 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: bd77b78)
-[15:32:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:32:00] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:32:00] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
-[15:32:00] [Server thread/INFO]: Default game type: SURVIVAL
-[15:32:00] [Server thread/INFO]: Generating keypair
-[15:32:01] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:32:01] [Server thread/INFO]: Using default channel type
-[15:32:01] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[15:32:01] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[15:32:01] [Server thread/INFO]: [dynmap] Loading dynmap v3.4-828
-[15:32:01] [Server thread/INFO]: [dynmap] version=git-Paper-396 (MC: 1.19.3)
-[15:32:01] [Server thread/INFO]: [dynmap] Mod Support API available
-[15:32:01] [Server thread/INFO]: [floodgate] Loading floodgate v2.2.0-SNAPSHOT (b74-4f36112)
-[15:32:01] [Server thread/INFO]: [floodgate] Took 293ms to boot Floodgate
-[15:32:01] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.1.0-SNAPSHOT
-[15:32:02] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[15:32:02] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[15:32:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:32:02] [Server thread/INFO]: Preparing level "world"
-[15:32:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:32:02] [Server thread/INFO]: Time elapsed: 97 ms
-[15:32:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:32:02] [Server thread/INFO]: Time elapsed: 30 ms
-[15:32:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:32:02] [Server thread/INFO]: Time elapsed: 24 ms
-[15:32:02] [Server thread/INFO]: [dynmap] Enabling dynmap v3.4-828
-[15:32:02] [Server thread/ERROR]: Error occurred while enabling dynmap v3.4-828 (Is it up to date?)
-java.lang.NoSuchFieldError: V
-	at org.dynmap.bukkit.helper.v119.BukkitVersionHelperSpigot119.initializeBlockStates(BukkitVersionHelperSpigot119.java:167) ~[Dynmap-spigot.jar:?]
-	at org.dynmap.bukkit.DynmapPlugin.onEnable(DynmapPlugin.java:921) ~[Dynmap-spigot.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:371) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:544) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.enablePlugin(CraftServer.java:578) ~[paper-1.19.3.jar:git-Paper-396]
-	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.enablePlugins(CraftServer.java:492) ~[paper-1.19.3.jar:git-Paper-396]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:635) ~[paper-1.19.3.jar:git-Paper-396]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:434) ~[paper-1.19.3.jar:git-Paper-396]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:308) ~[paper-1.19.3.jar:git-Paper-396]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1101) ~[paper-1.19.3.jar:git-Paper-396]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.19.3.jar:git-Paper-396]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[15:32:02] [Server thread/INFO]: [dynmap] Disabling dynmap v3.4-828
-[15:32:02] [Server thread/ERROR]: Error occurred while disabling dynmap v3.4-828 (Is it up to date?)
-java.lang.NullPointerException: Cannot invoke "org.dynmap.DynmapCore.disableCore()" because "this.core" is null
-	at org.dynmap.bukkit.DynmapPlugin.onDisable(DynmapPlugin.java:1082) ~[Dynmap-spigot.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:400) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:581) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:375) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:544) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.enablePlugin(CraftServer.java:578) ~[paper-1.19.3.jar:git-Paper-396]
-	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.enablePlugins(CraftServer.java:492) ~[paper-1.19.3.jar:git-Paper-396]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:635) ~[paper-1.19.3.jar:git-Paper-396]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:434) ~[paper-1.19.3.jar:git-Paper-396]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:308) ~[paper-1.19.3.jar:git-Paper-396]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1101) ~[paper-1.19.3.jar:git-Paper-396]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.19.3.jar:git-Paper-396]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[15:32:03] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.0-SNAPSHOT (b74-4f36112)
-[15:32:03] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.0-SNAPSHOT
-[15:32:03] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[15:32:03] [Server thread/INFO]: [Geyser-Spigot] 
-[15:32:03] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.1.0-SNAPSHOT (git-master-f9705c1)
-[15:32:03] [Server thread/INFO]: [Geyser-Spigot] 
-[15:32:03] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[15:32:06] [Network Listener - #1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
-[15:32:06] [Server thread/INFO]: [Geyser-Spigot] Done (2.77s)! Run /geyser help for help!
-[15:32:06] [Server thread/INFO]: Running delayed init tasks
-[15:32:06] [Server thread/INFO]: Done (5.728s)! For help, type "help"
-[15:32:06] [Server thread/INFO]: Timings Reset
+[19:30:36] [ServerMain/INFO]: Building unoptimized datafixer
+[19:30:37] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:30:39] [ServerMain/INFO]: Loaded 7 recipes
+[19:30:40] [Server thread/INFO]: Starting minecraft server version 1.19.3
+[19:30:40] [Server thread/INFO]: Loading properties
+[19:30:40] [Server thread/INFO]: This server is running Paper version git-Paper-396 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: bd77b78)
+[19:30:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:30:40] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:30:40] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[19:30:40] [Server thread/INFO]: Default game type: SURVIVAL
+[19:30:40] [Server thread/INFO]: Generating keypair
+[19:30:40] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:30:40] [Server thread/INFO]: Using default channel type
+[19:30:40] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[19:30:40] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[19:30:41] [Server thread/INFO]: [GSit] Loading GSit v1.3.7
+[19:30:41] [Server thread/INFO]: [floodgate] Loading floodgate v2.2.0-SNAPSHOT (b74-4f36112)
+[19:30:41] [Server thread/INFO]: [floodgate] Took 481ms to boot Floodgate
+[19:30:41] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.1.0-SNAPSHOT
+[19:30:42] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[19:30:42] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[19:30:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:30:42] [Server thread/INFO]: Preparing level "world"
+[19:30:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:30:43] [Server thread/INFO]: Time elapsed: 199 ms
+[19:30:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:30:43] [Server thread/INFO]: Time elapsed: 25 ms
+[19:30:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:30:43] [Server thread/INFO]: Time elapsed: 14 ms
+[19:30:43] [Server thread/INFO]: [GSit] Enabling GSit v1.3.7
+[19:30:43] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[19:30:43] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.0-SNAPSHOT (b74-4f36112)
+[19:30:44] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.0-SNAPSHOT
+[19:30:44] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[19:30:44] [Server thread/INFO]: [Geyser-Spigot] 
+[19:30:44] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.1.0-SNAPSHOT (git-master-f9705c1)
+[19:30:44] [Server thread/INFO]: [Geyser-Spigot] 
+[19:30:44] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[19:30:47] [Network Listener - #1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
+[19:30:47] [Server thread/INFO]: [Geyser-Spigot] Done (3.173s)! Run /geyser help for help!
+[19:30:47] [Server thread/INFO]: Running delayed init tasks
+[19:30:47] [Server thread/INFO]: Done (7.496s)! For help, type "help"
+[19:30:47] [Server thread/INFO]: Timings Reset
+[19:32:08] [User Authenticator #0/INFO]: UUID of player TW3LFTH is d39151ed-8853-4663-8d8b-f9f0bdb4fb97
+[19:32:08] [Server thread/INFO]: TW3LFTH joined the game
+[19:32:08] [Server thread/INFO]: TW3LFTH[/127.0.0.1:50561] logged in with entity id 207 at ([world]-1065.6880900606975, 74.0, 925.7762004883178)
+[19:36:18] [Server thread/INFO]: TW3LFTH issued server command: /sit
+[19:36:31] [Server thread/INFO]: TW3LFTH issued server command: /sit
+[19:38:29] [Server thread/INFO]: TW3LFTH issued server command: /sit
+[19:38:33] [Server thread/INFO]: TW3LFTH issued server command: /sit
+[19:38:47] [Server thread/INFO]: TW3LFTH lost connection: Disconnected
+[19:38:47] [Server thread/INFO]: TW3LFTH left the game
+[19:38:51] [Server thread/INFO]: Stopping the server
+[19:38:51] [Server thread/INFO]: Stopping server
+[19:38:51] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.1.0-SNAPSHOT
+[19:38:51] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[19:38:51] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[19:38:51] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.0-SNAPSHOT (b74-4f36112)
+[19:38:51] [Server thread/INFO]: [GSit] Disabling GSit v1.3.7
+[19:38:51] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[19:38:51] [Server thread/INFO]: Saving players
+[19:38:51] [Server thread/INFO]: Saving worlds
+[19:38:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:38:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[19:38:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[19:38:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[19:38:51] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 52 entity chunks, 0 poi chunks in world 'world' in 0.03s
+[19:38:51] [WebSocketConnectReadThread-55/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[19:38:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:38:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:38:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[19:38:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[19:38:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[19:38:52] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 80 entity chunks, 0 poi chunks in world 'world_nether' in 0.03s
+[19:38:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:38:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:38:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[19:38:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[19:38:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[19:38:52] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
+[19:38:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:38:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:38:52] [Server thread/INFO]: Flushing Chunk IO
+[19:38:52] [Server thread/INFO]: Closing Thread Pool
+[19:38:52] [Server thread/INFO]: Closing Server
