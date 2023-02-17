@@ -1,151 +1,44 @@
-[21:40:59] [ServerMain/INFO]: Building unoptimized datafixer
-[21:41:00] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21:41:00] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[21:41:01] [ServerMain/INFO]: Loaded 7 recipes
-[21:41:02] [Server thread/INFO]: Starting minecraft server version 1.19.3
-[21:41:02] [Server thread/INFO]: Loading properties
-[21:41:02] [Server thread/INFO]: This server is running Paper version git-Paper-396 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: bd77b78)
-[21:41:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:41:02] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:41:02] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
-[21:41:02] [Server thread/INFO]: Default game type: SURVIVAL
-[21:41:02] [Server thread/INFO]: Generating keypair
-[21:41:02] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:41:02] [Server thread/INFO]: Using default channel type
-[21:41:02] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[21:41:02] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[21:41:03] [Server thread/INFO]: [GSit] Loading GSit v1.3.7
-[21:41:03] [Server thread/INFO]: [floodgate] Loading floodgate v2.2.0-SNAPSHOT (b74-4f36112)
-[21:41:03] [Server thread/INFO]: [floodgate] Took 303ms to boot Floodgate
-[21:41:03] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.1.0-SNAPSHOT
-[21:41:04] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[21:41:04] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[21:41:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:41:04] [Server thread/INFO]: Preparing level "2012"
-[21:41:04] [Server thread/INFO]: ---- Migration of old nether folder required ----
-[21:41:04] [Server thread/INFO]: Unfortunately due to the way that Minecraft implemented multiworld support in 1.6, Bukkit requires that you move your nether folder to a new location in order to operate correctly.
-[21:41:04] [Server thread/INFO]: We will move this folder for you, but it will mean that you need to move it back should you wish to stop using Bukkit in the future.
-[21:41:04] [Server thread/INFO]: Attempting to move 2012\DIM-1 to 2012_nether\DIM-1...
-[21:41:04] [Server thread/INFO]: Success! To restore nether in the future, simply move 2012_nether\DIM-1 to 2012\DIM-1
-[21:41:04] [Server thread/INFO]: ---- Migration of old nether folder complete ----
-[21:41:04] [Server thread/INFO]: ---- Migration of old the_end folder required ----
-[21:41:04] [Server thread/INFO]: Unfortunately due to the way that Minecraft implemented multiworld support in 1.6, Bukkit requires that you move your the_end folder to a new location in order to operate correctly.
-[21:41:04] [Server thread/INFO]: We will move this folder for you, but it will mean that you need to move it back should you wish to stop using Bukkit in the future.
-[21:41:04] [Server thread/INFO]: Attempting to move 2012\DIM1 to 2012_the_end\DIM1...
-[21:41:04] [Server thread/INFO]: Success! To restore the_end in the future, simply move 2012_the_end\DIM1 to 2012\DIM1
-[21:41:04] [Server thread/INFO]: ---- Migration of old the_end folder complete ----
-[21:41:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:41:04] [Server thread/INFO]: Time elapsed: 126 ms
-[21:41:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[21:41:04] [Server thread/INFO]: Time elapsed: 26 ms
-[21:41:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:41:04] [Server thread/INFO]: Time elapsed: 23 ms
-[21:41:04] [Server thread/INFO]: [GSit] Enabling GSit v1.3.7
-[21:41:05] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
-[21:41:05] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.0-SNAPSHOT (b74-4f36112)
-[21:41:05] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.0-SNAPSHOT
-[21:41:05] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[21:41:05] [Server thread/INFO]: [Geyser-Spigot] 
-[21:41:05] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.1.0-SNAPSHOT (git-master-f9705c1)
-[21:41:05] [Server thread/INFO]: [Geyser-Spigot] 
-[21:41:05] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[21:41:08] [Network Listener - #1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
-[21:41:08] [Server thread/INFO]: [Geyser-Spigot] Done (2.74s)! Run /geyser help for help!
-[21:41:08] [Server thread/INFO]: Running delayed init tasks
-[21:41:08] [Server thread/INFO]: Done (6.154s)! For help, type "help"
-[21:41:08] [Server thread/INFO]: Timings Reset
-[21:41:13] [User Authenticator #0/INFO]: UUID of player TW3LFTH is d39151ed-8853-4663-8d8b-f9f0bdb4fb97
-[21:41:13] [Server thread/INFO]: TW3LFTH joined the game
-[21:41:13] [Server thread/INFO]: TW3LFTH[/127.0.0.1:57146] logged in with entity id 139 at ([2012]282.57920797183067, 142.5625, -22.166210569144962)
-[22:02:17] [Server thread/INFO]: TW3LFTH issued server command: /gamemode
-[22:02:20] [Server thread/INFO]: TW3LFTH issued server command: /gamemode creative
-[22:02:20] [Server thread/INFO]: [TW3LFTH: Set own game mode to Creative Mode]
-[22:02:35] [Server thread/INFO]: TW3LFTH issued server command: /gamemode survival
-[22:02:35] [Server thread/INFO]: [TW3LFTH: Set own game mode to Survival Mode]
-[22:04:58] [Server thread/INFO]: TW3LFTH has made the advancement [Diamonds!]
-[22:05:50] [Server thread/INFO]: TW3LFTH was slain by Enderman
-[22:06:03] [Server thread/INFO]: TW3LFTH issued server command: /gamemode cre
-[22:06:05] [Server thread/INFO]: TW3LFTH issued server command: /gamemode survival
-[22:06:07] [Server thread/INFO]: TW3LFTH issued server command: /gamemode creative
-[22:06:07] [Server thread/INFO]: [TW3LFTH: Set own game mode to Creative Mode]
-[22:15:54] [Network Listener - #1/INFO]: [Geyser-Spigot] /138.118.85.240:48523 tried to connect!
-[22:15:54] [Network Listener - #3/INFO]: [Geyser-Spigot] Player connected with username WesleyEmmer
-[22:15:54] [defaultEventLoopGroup-5-2/INFO]: [Geyser-Spigot] WesleyEmmer (logged in as: WesleyEmmer) has connected to the Java server
-[22:15:56] [Geyser Spigot connection thread-4-3/INFO]: UUID of player .WesleyEmmer is 00000000-0000-0000-0009-00000b890475
-[22:15:56] [Server thread/INFO]: [floodgate] Floodgate player logged in as .WesleyEmmer joined (UUID: 00000000-0000-0000-0009-00000b890475)
-[22:15:56] [Server thread/INFO]: .WesleyEmmer joined the game
-[22:15:56] [Server thread/INFO]: .WesleyEmmer[/138.118.85.240:0] logged in with entity id 8869 at ([2012]-3.5, 72.0, -1.5)
-[22:18:15] [defaultEventLoopGroup-5-2/INFO]: [Geyser-Spigot] WesleyEmmer has disconnected from the Java server because of Bedrock client disconnected
-[22:18:15] [Geyser Spigot connection thread-4-3/INFO]: [floodgate] Floodgate player logged in as .WesleyEmmer disconnected
-[22:18:15] [Server thread/INFO]: .WesleyEmmer lost connection: Disconnected
-[22:18:15] [Server thread/INFO]: .WesleyEmmer left the game
-[22:19:11] [Network Listener - #1/INFO]: [Geyser-Spigot] /138.118.85.240:48523 tried to connect!
-[22:19:12] [Network Listener - #0/INFO]: [Geyser-Spigot] Player connected with username WesleyEmmer
-[22:19:12] [defaultEventLoopGroup-5-3/INFO]: [Geyser-Spigot] WesleyEmmer (logged in as: WesleyEmmer) has connected to the Java server
-[22:19:13] [Geyser Spigot connection thread-4-4/INFO]: UUID of player .WesleyEmmer is 00000000-0000-0000-0009-00000b890475
-[22:19:13] [Server thread/INFO]: [floodgate] Floodgate player logged in as .WesleyEmmer joined (UUID: 00000000-0000-0000-0009-00000b890475)
-[22:19:13] [Server thread/INFO]: .WesleyEmmer joined the game
-[22:19:13] [Server thread/INFO]: .WesleyEmmer[/138.118.85.240:0] logged in with entity id 10418 at ([2012]-14.454408, 70.0, -30.501575)
-[22:19:29] [Async Chat Thread - #2/INFO]: [Not Secure] <.WesleyEmmer> Ta ai?
-[22:19:31] [Async Chat Thread - #1/INFO]: <TW3LFTH> s
-[22:19:43] [Async Chat Thread - #2/INFO]: <TW3LFTH> o procurando meus item
-[22:19:50] [Async Chat Thread - #1/INFO]: <TW3LFTH> morri no meio de 1 caverna infinita
-[22:20:10] [Server thread/INFO]: .WesleyEmmer was shot by Skeleton
-[22:20:10] [Async Chat Thread - #2/INFO]: [Not Secure] <.WesleyEmmer> CONSEGUE ME LEVAR PARA AI?
-[22:20:17] [Async Chat Thread - #1/INFO]: <TW3LFTH> ja puxo
-[22:20:21] [Async Chat Thread - #1/INFO]: <TW3LFTH> se der tp agr tu morre
-[22:21:08] [Server thread/INFO]: TW3LFTH lost connection: Disconnected
-[22:21:08] [Server thread/INFO]: TW3LFTH left the game
-[22:21:17] [Server thread/INFO]: Stopping the server
-[22:21:17] [Server thread/INFO]: Stopping server
-[22:21:17] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.1.0-SNAPSHOT
-[22:21:17] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[22:21:17] [Server thread/INFO]: [Geyser-Spigot] Kicking 1 player(s)
-[22:21:17] [Server thread/INFO]: [Geyser-Spigot] Kicked all players!
-[22:21:17] [Geyser Spigot connection thread-4-4/INFO]: [floodgate] Floodgate player logged in as .WesleyEmmer disconnected
-[22:21:17] [defaultEventLoopGroup-5-3/INFO]: [Geyser-Spigot] WesleyEmmer has disconnected from the Java server because of Proxy Geyser encerrando.
-[22:21:17] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[22:21:17] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.0-SNAPSHOT (b74-4f36112)
-[22:21:17] [Server thread/INFO]: [GSit] Disabling GSit v1.3.7
-[22:21:17] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
-[22:21:17] [Server thread/INFO]: Saving players
-[22:21:17] [Server thread/INFO]: .WesleyEmmer lost connection: Vão dormir
-[22:21:17] [Server thread/INFO]: .WesleyEmmer left the game
-[22:21:17] [Server thread/INFO]: Saving worlds
-[22:21:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[2012]'/minecraft:overworld
-[22:21:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world '2012'
-[22:21:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world '2012'
-[22:21:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world '2012'
-[22:21:17] [WebSocketConnectReadThread-55/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[22:21:17] [WebSocketConnectReadThread-113/WARN]: Exception in thread "WebSocketConnectReadThread-113" java.lang.IllegalStateException: zip file closed
-[22:21:18] [WebSocketConnectReadThread-113/WARN]: 	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:831)
-[22:21:18] [WebSocketConnectReadThread-113/WARN]: 	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:330)
-[22:21:18] [WebSocketConnectReadThread-113/WARN]: 	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:518)
-[22:21:18] [WebSocketConnectReadThread-113/WARN]: 	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:473)
-[22:21:18] [WebSocketConnectReadThread-113/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:189)
-[22:21:18] [WebSocketConnectReadThread-113/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:587)
-[22:21:18] [WebSocketConnectReadThread-113/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:129)
-[22:21:18] [WebSocketConnectReadThread-113/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:124)
-[22:21:18] [WebSocketConnectReadThread-113/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
-[22:21:18] [WebSocketConnectReadThread-113/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.logger.JavaUtilFloodgateLogger.error(JavaUtilFloodgateLogger.java:49)
-[22:21:18] [WebSocketConnectReadThread-113/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.skin.SkinUploadSocket.onError(SkinUploadSocket.java:179)
-[22:21:18] [WebSocketConnectReadThread-113/WARN]: 	at floodgate-spigot.jar//org.java_websocket.client.WebSocketClient.run(WebSocketClient.java:523)
-[22:21:18] [WebSocketConnectReadThread-113/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[22:21:18] [Server thread/INFO]: [ChunkHolderManager] Saved 137 block chunks, 453 entity chunks, 0 poi chunks in world '2012' in 0.24s
-[22:21:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (2012): All chunks are saved
-[22:21:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[2012_nether]'/minecraft:the_nether
-[22:21:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world '2012_nether'
-[22:21:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world '2012_nether'
-[22:21:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world '2012_nether'
-[22:21:19] [Server thread/INFO]: [ChunkHolderManager] Saved 1502 block chunks, 22 entity chunks, 0 poi chunks in world '2012_nether' in 0.30s
-[22:21:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:21:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[2012_the_end]'/minecraft:the_end
-[22:21:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world '2012_the_end'
-[22:21:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world '2012_the_end'
-[22:21:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world '2012_the_end'
-[22:21:19] [Server thread/INFO]: [ChunkHolderManager] Saved 1506 block chunks, 10 entity chunks, 0 poi chunks in world '2012_the_end' in 0.17s
-[22:21:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:21:20] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[22:21:20] [Server thread/INFO]: Flushing Chunk IO
-[22:21:20] [Server thread/INFO]: Closing Thread Pool
-[22:21:20] [Server thread/INFO]: Closing Server
+[20:06:52] [ServerMain/INFO]: Building unoptimized datafixer
+[20:06:53] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:06:55] [ServerMain/INFO]: Loaded 7 recipes
+[20:06:55] [Server thread/INFO]: Starting minecraft server version 1.19.3
+[20:06:55] [Server thread/INFO]: Loading properties
+[20:06:55] [Server thread/INFO]: This server is running Paper version git-Paper-396 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: bd77b78)
+[20:06:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:06:55] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:06:56] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[20:06:56] [Server thread/INFO]: Default game type: SURVIVAL
+[20:06:56] [Server thread/INFO]: Generating keypair
+[20:06:56] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:06:56] [Server thread/INFO]: Using default channel type
+[20:06:56] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[20:06:56] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[20:06:56] [Server thread/INFO]: [GSit] Loading GSit v1.3.7
+[20:06:57] [Server thread/INFO]: [floodgate] Loading floodgate v2.2.0-SNAPSHOT (b74-4f36112)
+[20:06:57] [Server thread/INFO]: [floodgate] Took 395ms to boot Floodgate
+[20:06:57] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.1.0-SNAPSHOT
+[20:06:57] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[20:06:57] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[20:06:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:06:57] [Server thread/INFO]: Preparing level "world"
+[20:06:58] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:06:58] [Server thread/INFO]: Time elapsed: 154 ms
+[20:06:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:06:58] [Server thread/INFO]: Time elapsed: 27 ms
+[20:06:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:06:58] [Server thread/INFO]: Time elapsed: 24 ms
+[20:06:58] [Server thread/INFO]: [GSit] Enabling GSit v1.3.7
+[20:06:59] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[20:06:59] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.0-SNAPSHOT (b74-4f36112)
+[20:07:00] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.0-SNAPSHOT
+[20:07:00] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[20:07:00] [Server thread/INFO]: [Geyser-Spigot] 
+[20:07:00] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.1.0-SNAPSHOT (git-master-f9705c1)
+[20:07:00] [Server thread/INFO]: [Geyser-Spigot] 
+[20:07:00] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[20:07:02] [Network Listener - #1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
+[20:07:02] [Server thread/INFO]: [Geyser-Spigot] Done (2.635s)! Run /geyser help for help!
+[20:07:02] [Server thread/INFO]: Running delayed init tasks
+[20:07:02] [Server thread/INFO]: Done (7.030s)! For help, type "help"
+[20:07:02] [Server thread/INFO]: Timings Reset
+[20:07:03] [ForkJoinPool.commonPool-worker-2/INFO]: [Geyser-Spigot] There's a new Geyser update available to support Bedrock version 1.19.62. Download it here: https://ci.geysermc.org
