@@ -1,44 +1,44 @@
-[17:36:21] [ServerMain/INFO]: Building unoptimized datafixer
-[17:36:22] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:36:24] [ServerMain/INFO]: Loaded 7 recipes
-[17:36:24] [Server thread/INFO]: Starting minecraft server version 1.19.3
-[17:36:24] [Server thread/INFO]: Loading properties
-[17:36:24] [Server thread/INFO]: This server is running Paper version git-Paper-396 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: bd77b78)
-[17:36:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:36:24] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:36:25] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
-[17:36:25] [Server thread/INFO]: Default game type: SURVIVAL
-[17:36:25] [Server thread/INFO]: Generating keypair
-[17:36:25] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:36:25] [Server thread/INFO]: Using default channel type
-[17:36:25] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[17:36:25] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[17:36:26] [Server thread/INFO]: [GSit] Loading GSit v1.3.7
-[17:36:26] [Server thread/INFO]: [floodgate] Loading floodgate v2.2.0-SNAPSHOT (b74-4f36112)
-[17:36:26] [Server thread/INFO]: [floodgate] Took 475ms to boot Floodgate
-[17:36:26] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.1.0-SNAPSHOT
-[17:36:27] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[17:36:27] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[17:36:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:36:27] [Server thread/INFO]: Preparing level "world"
-[17:36:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:36:28] [Server thread/INFO]: Time elapsed: 140 ms
-[17:36:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[17:36:28] [Server thread/INFO]: Time elapsed: 23 ms
-[17:36:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[17:36:28] [Server thread/INFO]: Time elapsed: 13 ms
-[17:36:28] [Server thread/INFO]: [GSit] Enabling GSit v1.3.7
-[17:36:28] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
-[17:36:28] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.0-SNAPSHOT (b74-4f36112)
-[17:36:29] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.0-SNAPSHOT
-[17:36:29] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[17:36:29] [Server thread/INFO]: [Geyser-Spigot] 
-[17:36:29] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.1.0-SNAPSHOT (git-master-f9705c1)
-[17:36:29] [Server thread/INFO]: [Geyser-Spigot] 
-[17:36:29] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[17:36:32] [Network Listener - #1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
-[17:36:32] [Server thread/INFO]: [Geyser-Spigot] Done (3.462s)! Run /geyser help for help!
-[17:36:32] [Server thread/INFO]: Running delayed init tasks
-[17:36:32] [Server thread/INFO]: Done (7.940s)! For help, type "help"
-[17:36:32] [Server thread/INFO]: Timings Reset
-[17:36:33] [ForkJoinPool.commonPool-worker-2/INFO]: [Geyser-Spigot] There's a new Geyser update available to support Bedrock version 1.19.62. Download it here: https://ci.geysermc.org
+[20:06:40] [ServerMain/INFO]: Building unoptimized datafixer
+[20:06:41] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:06:43] [ServerMain/INFO]: Loaded 7 recipes
+[20:06:44] [Server thread/INFO]: Starting minecraft server version 1.19.3
+[20:06:44] [Server thread/INFO]: Loading properties
+[20:06:44] [Server thread/INFO]: This server is running Paper version git-Paper-396 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: bd77b78)
+[20:06:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:06:44] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:06:44] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[20:06:44] [Server thread/INFO]: Default game type: SURVIVAL
+[20:06:44] [Server thread/INFO]: Generating keypair
+[20:06:44] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:06:44] [Server thread/INFO]: Using default channel type
+[20:06:44] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[20:06:44] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[20:06:45] [Server thread/INFO]: [GSit] Loading GSit v1.3.7
+[20:06:45] [Server thread/INFO]: [floodgate] Loading floodgate v2.2.0-SNAPSHOT (b74-4f36112)
+[20:06:45] [Server thread/INFO]: [floodgate] Took 330ms to boot Floodgate
+[20:06:45] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.1.0-SNAPSHOT
+[20:06:46] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[20:06:46] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[20:06:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:06:46] [Server thread/INFO]: Preparing level "world"
+[20:06:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:06:47] [Server thread/INFO]: Time elapsed: 98 ms
+[20:06:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:06:47] [Server thread/INFO]: Time elapsed: 26 ms
+[20:06:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:06:47] [Server thread/INFO]: Time elapsed: 23 ms
+[20:06:47] [Server thread/INFO]: [GSit] Enabling GSit v1.3.7
+[20:06:47] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[20:06:47] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.0-SNAPSHOT (b74-4f36112)
+[20:06:48] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.0-SNAPSHOT
+[20:06:48] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[20:06:48] [Server thread/INFO]: [Geyser-Spigot] 
+[20:06:48] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.1.0-SNAPSHOT (git-master-f9705c1)
+[20:06:48] [Server thread/INFO]: [Geyser-Spigot] 
+[20:06:48] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[20:06:50] [Network Listener - #1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
+[20:06:50] [Server thread/INFO]: [Geyser-Spigot] Done (2.88s)! Run /geyser help for help!
+[20:06:50] [Server thread/INFO]: Running delayed init tasks
+[20:06:50] [Server thread/INFO]: Done (6.714s)! For help, type "help"
+[20:06:50] [Server thread/INFO]: Timings Reset
+[20:06:51] [ForkJoinPool.commonPool-worker-2/INFO]: [Geyser-Spigot] There's a new Geyser update available to support Bedrock version 1.19.62. Download it here: https://ci.geysermc.org
