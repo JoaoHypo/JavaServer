@@ -1,44 +1,77 @@
-[20:24:24] [ServerMain/INFO]: Building unoptimized datafixer
-[20:24:25] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:24:27] [ServerMain/INFO]: Loaded 7 recipes
-[20:24:27] [Server thread/INFO]: Starting minecraft server version 1.19.3
-[20:24:27] [Server thread/INFO]: Loading properties
-[20:24:27] [Server thread/INFO]: This server is running Paper version git-Paper-396 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: bd77b78)
-[20:24:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:24:27] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:24:28] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
-[20:24:28] [Server thread/INFO]: Default game type: SURVIVAL
-[20:24:28] [Server thread/INFO]: Generating keypair
-[20:24:28] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:24:28] [Server thread/INFO]: Using default channel type
-[20:24:28] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[20:24:28] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[20:24:29] [Server thread/INFO]: [GSit] Loading GSit v1.3.7
-[20:24:29] [Server thread/INFO]: [floodgate] Loading floodgate v2.2.0-SNAPSHOT (b74-4f36112)
-[20:24:29] [Server thread/INFO]: [floodgate] Took 400ms to boot Floodgate
-[20:24:29] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.1.0-SNAPSHOT
-[20:24:30] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[20:24:30] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[20:24:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:24:30] [Server thread/INFO]: Preparing level "world"
-[20:24:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:24:31] [Server thread/INFO]: Time elapsed: 149 ms
-[20:24:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[20:24:31] [Server thread/INFO]: Time elapsed: 25 ms
-[20:24:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:24:31] [Server thread/INFO]: Time elapsed: 22 ms
-[20:24:31] [Server thread/INFO]: [GSit] Enabling GSit v1.3.7
-[20:24:31] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
-[20:24:31] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.0-SNAPSHOT (b74-4f36112)
-[20:24:32] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.0-SNAPSHOT
-[20:24:32] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[20:24:32] [Server thread/INFO]: [Geyser-Spigot] 
-[20:24:32] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.1.0-SNAPSHOT (git-master-f9705c1)
-[20:24:32] [Server thread/INFO]: [Geyser-Spigot] 
-[20:24:32] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[20:24:35] [Network Listener - #1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
-[20:24:35] [Server thread/INFO]: [Geyser-Spigot] Done (3.022s)! Run /geyser help for help!
-[20:24:35] [Server thread/INFO]: Running delayed init tasks
-[20:24:35] [Server thread/INFO]: Done (7.627s)! For help, type "help"
-[20:24:35] [Server thread/INFO]: Timings Reset
-[20:24:36] [ForkJoinPool.commonPool-worker-2/INFO]: [Geyser-Spigot] There's a new Geyser update available to support Bedrock version 1.19.62. Download it here: https://ci.geysermc.org
+[00:04:41] [defaultEventLoopGroup-5-2/INFO]: [Geyser-Spigot] Naityyy has disconnected from the Java server because of Bedrock client disconnected
+[00:04:41] [Geyser Spigot connection thread-4-3/INFO]: [floodgate] Floodgate player logged in as .Naityyy disconnected
+[00:04:41] [Server thread/INFO]: .Naityyy lost connection: Disconnected
+[00:04:41] [Server thread/INFO]: .Naityyy left the game
+[00:05:01] [Network Listener - #1/INFO]: [Geyser-Spigot] /186.216.254.206:58468 tried to connect!
+[00:05:01] [Network Listener - #0/INFO]: [Geyser-Spigot] Player connected with username Naityyy
+[00:05:01] [defaultEventLoopGroup-5-3/INFO]: [Geyser-Spigot] Naityyy (logged in as: Naityyy) has connected to the Java server
+[00:05:02] [Geyser Spigot connection thread-4-4/INFO]: UUID of player .Naityyy is 00000000-0000-0000-0009-01f825fd158a
+[00:05:02] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Naityyy joined (UUID: 00000000-0000-0000-0009-01f825fd158a)
+[00:05:02] [Server thread/INFO]: .Naityyy joined the game
+[00:05:02] [Server thread/INFO]: .Naityyy[/186.216.254.206:0] logged in with entity id 31655 at ([world]-1055.6794, 70.24813599859094, 905.3639)
+[00:05:04] [Geyser Spigot connection thread-4-4/INFO]: [floodgate] Floodgate player logged in as .Naityyy disconnected
+[00:05:04] [defaultEventLoopGroup-5-3/INFO]: [Geyser-Spigot] Naityyy has disconnected from the Java server because of Bedrock client disconnected
+[00:05:04] [Server thread/INFO]: .Naityyy lost connection: Disconnected
+[00:05:04] [Server thread/INFO]: .Naityyy left the game
+[00:05:10] [Server thread/INFO]: Riciler has made the advancement [Suit Up]
+[00:05:31] [Network Listener - #1/INFO]: [Geyser-Spigot] /186.216.254.206:58468 tried to connect!
+[00:05:32] [Network Listener - #1/INFO]: [Geyser-Spigot] Player connected with username Naityyy
+[00:05:32] [defaultEventLoopGroup-5-4/INFO]: [Geyser-Spigot] Naityyy (logged in as: Naityyy) has connected to the Java server
+[00:05:33] [defaultEventLoopGroup-5-4/INFO]: [Geyser-Spigot] Naityyy has disconnected from the Java server because of Bedrock client disconnected
+[00:05:56] [Network Listener - #1/INFO]: [Geyser-Spigot] /186.216.254.206:58468 tried to connect!
+[00:05:57] [Network Listener - #2/INFO]: [Geyser-Spigot] Player connected with username Naityyy
+[00:05:57] [defaultEventLoopGroup-5-1/INFO]: [Geyser-Spigot] Naityyy (logged in as: Naityyy) has connected to the Java server
+[00:05:58] [Geyser Spigot connection thread-4-2/INFO]: UUID of player .Naityyy is 00000000-0000-0000-0009-01f825fd158a
+[00:05:58] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Naityyy joined (UUID: 00000000-0000-0000-0009-01f825fd158a)
+[00:05:58] [Server thread/INFO]: .Naityyy joined the game
+[00:05:58] [Server thread/INFO]: .Naityyy[/186.216.254.206:0] logged in with entity id 31942 at ([world]-1055.6794, 70.16973599706506, 905.3639)
+[00:05:59] [Geyser Spigot connection thread-4-2/INFO]: [floodgate] Floodgate player logged in as .Naityyy disconnected
+[00:05:59] [defaultEventLoopGroup-5-1/INFO]: [Geyser-Spigot] Naityyy has disconnected from the Java server because of Bedrock client disconnected
+[00:05:59] [Server thread/INFO]: .Naityyy lost connection: Disconnected
+[00:05:59] [Server thread/INFO]: .Naityyy left the game
+[00:06:18] [Network Listener - #1/INFO]: [Geyser-Spigot] /186.216.254.206:58468 tried to connect!
+[00:06:19] [Network Listener - #3/INFO]: [Geyser-Spigot] Player connected with username Naityyy
+[00:06:19] [defaultEventLoopGroup-5-2/INFO]: [Geyser-Spigot] Naityyy (logged in as: Naityyy) has connected to the Java server
+[00:06:19] [defaultEventLoopGroup-5-2/INFO]: [Geyser-Spigot] Naityyy has disconnected from the Java server because of Bedrock client disconnected
+[00:06:38] [Network Listener - #1/INFO]: [Geyser-Spigot] /186.216.254.206:58468 tried to connect!
+[00:06:38] [Network Listener - #0/INFO]: [Geyser-Spigot] Player connected with username Naityyy
+[00:06:38] [defaultEventLoopGroup-5-3/INFO]: [Geyser-Spigot] Naityyy (logged in as: Naityyy) has connected to the Java server
+[00:06:39] [defaultEventLoopGroup-5-3/INFO]: [Geyser-Spigot] Naityyy has disconnected from the Java server because of Bedrock client disconnected
+[00:06:49] [Network Listener - #1/INFO]: [Geyser-Spigot] /186.216.254.206:58468 tried to connect!
+[00:06:49] [Network Listener - #1/INFO]: [Geyser-Spigot] Player connected with username Naityyy
+[00:06:49] [defaultEventLoopGroup-5-4/INFO]: [Geyser-Spigot] Naityyy (logged in as: Naityyy) has connected to the Java server
+[00:06:50] [defaultEventLoopGroup-5-4/INFO]: [Geyser-Spigot] Naityyy has disconnected from the Java server because of Bedrock client disconnected
+[00:08:08] [Network Listener - #1/INFO]: [Geyser-Spigot] /186.216.254.206:60407 tried to connect!
+[00:08:09] [Network Listener - #2/INFO]: [Geyser-Spigot] Player connected with username Naityyy
+[00:08:09] [defaultEventLoopGroup-5-1/INFO]: [Geyser-Spigot] Naityyy (logged in as: Naityyy) has connected to the Java server
+[00:08:10] [Geyser Spigot connection thread-4-2/INFO]: UUID of player .Naityyy is 00000000-0000-0000-0009-01f825fd158a
+[00:08:10] [Server thread/INFO]: [floodgate] Floodgate player logged in as .Naityyy joined (UUID: 00000000-0000-0000-0009-01f825fd158a)
+[00:08:10] [Server thread/INFO]: .Naityyy joined the game
+[00:08:10] [Server thread/INFO]: .Naityyy[/186.216.254.206:0] logged in with entity id 32375 at ([world]-1055.6794, 70.01450399254846, 905.3639)
+[00:08:10] [Geyser Spigot connection thread-4-2/INFO]: [floodgate] Floodgate player logged in as .Naityyy disconnected
+[00:08:10] [defaultEventLoopGroup-5-1/INFO]: [Geyser-Spigot] Naityyy has disconnected from the Java server because of Bedrock client disconnected
+[00:08:10] [Server thread/INFO]: .Naityyy lost connection: Disconnected
+[00:08:10] [Server thread/INFO]: .Naityyy left the game
+[00:20:26] [Server thread/INFO]: Mandole has made the advancement [Ice Bucket Challenge]
+[00:24:59] [Server thread/INFO]: Mandole fell from a high place
+[00:31:25] [Server thread/INFO]: Mandole has made the advancement [Best Friends Forever]
+[00:46:13] [Server thread/INFO]: Mandole drowned
+[00:46:13] [Server thread/INFO]: Mandole lost connection: Disconnected
+[00:46:13] [Server thread/INFO]: Mandole left the game
+[00:52:54] [Server thread/INFO]: Riciler lost connection: Disconnected
+[00:52:54] [Server thread/INFO]: Riciler left the game
+[01:46:51] [User Authenticator #4/INFO]: UUID of player Riciler is 17072e58-2eb6-48c0-951c-6fb6036a2d57
+[01:46:51] [Server thread/INFO]: Riciler joined the game
+[01:46:51] [Server thread/INFO]: Riciler[/179.162.15.41:49213] logged in with entity id 43871 at ([world]-1019.8670605466504, 25.0, 914.3883593808955)
+[01:51:59] [Server thread/INFO]: Villager EntityVillager['Villager'/13, uuid='40b94a99-657e-4789-935c-075fbc3b195a', l='ServerLevel[world_nether]', x=-117.30, y=68.05, z=110.30, cpos=[-8, 6], tl=820222, v=true] died, message: 'Villager was slain by Zombie'
+[01:52:07] [Server thread/INFO]: Villager EntityVillager['Villager'/24326, uuid='b660a574-823c-4731-9c35-37452ad79ae1', l='ServerLevel[world_nether]', x=-117.30, y=68.05, z=110.30, cpos=[-8, 6], tl=465611, v=true] died, message: 'Villager was slain by Zombie'
+[01:54:32] [Server thread/INFO]: Riciler has made the advancement [Hot Stuff]
+[02:04:51] [Server thread/INFO]: Riciler was slain by Enderman
+[02:22:28] [Server thread/INFO]: Riciler has made the advancement [Diamonds!]
+[02:52:01] [Server thread/INFO]: Riciler lost connection: Disconnected
+[02:52:01] [Server thread/INFO]: Riciler left the game
+[02:59:02] [User Authenticator #5/INFO]: UUID of player Riciler is 17072e58-2eb6-48c0-951c-6fb6036a2d57
+[02:59:02] [Server thread/INFO]: Riciler joined the game
+[02:59:02] [Server thread/INFO]: Riciler[/179.162.15.41:61857] logged in with entity id 55972 at ([world]-1022.7481769651574, 25.0, 915.2542930948529)
+[02:59:16] [Server thread/INFO]: Riciler lost connection: Disconnected
+[02:59:16] [Server thread/INFO]: Riciler left the game
