@@ -1,0 +1,354 @@
+[19:24:05] [ServerMain/INFO]: Building unoptimized datafixer
+[19:24:07] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:24:08] [ServerMain/INFO]: Loaded 7 recipes
+[19:24:09] [Server thread/INFO]: Starting minecraft server version 1.19.3
+[19:24:09] [Server thread/INFO]: Loading properties
+[19:24:09] [Server thread/INFO]: This server is running Paper version git-Paper-396 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: bd77b78)
+[19:24:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:24:09] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:24:09] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[19:24:09] [Server thread/INFO]: Default game type: SURVIVAL
+[19:24:09] [Server thread/INFO]: Generating keypair
+[19:24:09] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:24:09] [Server thread/INFO]: Using default channel type
+[19:24:09] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[19:24:09] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[19:24:10] [Server thread/INFO]: [GSit] Loading GSit v1.3.7
+[19:24:10] [Server thread/INFO]: [Timber] Loading Timber v1.1.0
+[19:24:10] [Server thread/INFO]: [floodgate] Loading floodgate v2.2.0-SNAPSHOT (b74-4f36112)
+[19:24:11] [Server thread/INFO]: [floodgate] Demorou 493ms para inicializar o Floodgate
+[19:24:11] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.1.0-SNAPSHOT
+[19:24:11] [Server thread/INFO]: [Geyser-Spigot] Carregando extensões...
+[19:24:11] [Server thread/INFO]: [Geyser-Spigot] 0 extensão(ões) carregada
+[19:24:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:24:11] [Server thread/INFO]: Preparing level "world"
+[19:24:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:24:12] [Server thread/INFO]: Time elapsed: 207 ms
+[19:24:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:24:12] [Server thread/INFO]: Time elapsed: 61 ms
+[19:24:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:24:12] [Server thread/INFO]: Time elapsed: 46 ms
+[19:24:12] [Server thread/INFO]: [GSit] Enabling GSit v1.3.7
+[19:24:12] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[19:24:13] [Server thread/INFO]: [Timber] Enabling Timber v1.1.0
+[19:24:13] [Server thread/INFO]: Timber Log Materials: [OAK_LOG, BIRCH_LOG, WARPED_STEM, CRIMSON_STEM, DARK_OAK_LOG, SPRUCE_LOG, JUNGLE_LOG, ACACIA_LOG]
+[19:24:13] [Server thread/INFO]: Timber Axe Materials: [NETHERITE_AXE, IRON_AXE, DIAMOND_AXE, GOLDEN_AXE, STONE_AXE, WOODEN_AXE]
+[19:24:13] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.0-SNAPSHOT (b74-4f36112)
+[19:24:13] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.0-SNAPSHOT
+[19:24:13] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[19:24:13] [Server thread/INFO]: [Geyser-Spigot] 
+[19:24:13] [Server thread/INFO]: [Geyser-Spigot] Carregando Geyser versão 2.1.0-SNAPSHOT (git-master-e42c2d8)
+[19:24:13] [Server thread/INFO]: [Geyser-Spigot] 
+[19:24:13] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[19:24:17] [Network Listener - #1/INFO]: [Geyser-Spigot] Geyser iniciado em 0.0.0.0: 19132
+[19:24:17] [Server thread/INFO]: [Geyser-Spigot] Concluído (3,345 s)! Execute /geyser help para obter ajuda!
+[19:24:17] [Server thread/INFO]: Running delayed init tasks
+[19:24:17] [Server thread/INFO]: Done (8.221s)! For help, type "help"
+[19:24:17] [Server thread/INFO]: Timings Reset
+[19:49:44] [User Authenticator #0/INFO]: UUID of player TW3LFTH is d39151ed-8853-4663-8d8b-f9f0bdb4fb97
+[19:49:44] [Server thread/INFO]: TW3LFTH joined the game
+[19:49:44] [Server thread/INFO]: TW3LFTH[/127.0.0.1:50285] logged in with entity id 322 at ([world]-1081.2264417059885, 75.0, 922.4987950027333)
+[19:50:17] [Server thread/INFO]: AIR
+[19:50:17] [Server thread/INFO]: SUGAR_CANE
+[19:50:17] [Server thread/INFO]: AIR
+[19:50:17] [Server thread/INFO]: SUGAR_CANE
+[19:50:17] [Server thread/INFO]: AIR
+[19:50:17] [Server thread/INFO]: SUGAR_CANE
+[19:50:18] [Server thread/INFO]: AIR
+[19:50:18] [Server thread/INFO]: SUGAR_CANE
+[19:50:19] [Server thread/INFO]: AIR
+[19:50:19] [Server thread/INFO]: SUGAR_CANE
+[19:50:19] [Server thread/INFO]: AIR
+[19:50:19] [Server thread/INFO]: SUGAR_CANE
+[19:50:22] [Server thread/INFO]: AIR
+[19:50:22] [Server thread/INFO]: SUGAR_CANE
+[19:50:22] [Server thread/INFO]: AIR
+[19:50:22] [Server thread/INFO]: SUGAR_CANE
+[19:50:22] [Server thread/INFO]: AIR
+[19:50:22] [Server thread/INFO]: SUGAR_CANE
+[19:50:23] [Server thread/INFO]: AIR
+[19:50:23] [Server thread/INFO]: SUGAR_CANE
+[19:50:23] [Server thread/INFO]: AIR
+[19:50:23] [Server thread/INFO]: SUGAR_CANE
+[19:50:24] [Server thread/INFO]: AIR
+[19:50:24] [Server thread/INFO]: SUGAR_CANE
+[19:50:24] [Server thread/INFO]: AIR
+[19:50:24] [Server thread/INFO]: SUGAR_CANE
+[19:50:24] [Server thread/INFO]: AIR
+[19:50:24] [Server thread/INFO]: SUGAR_CANE
+[19:50:24] [Server thread/INFO]: AIR
+[19:50:24] [Server thread/INFO]: SUGAR_CANE
+[19:50:24] [Server thread/INFO]: AIR
+[19:50:24] [Server thread/INFO]: SUGAR_CANE
+[19:50:25] [Server thread/INFO]: AIR
+[19:50:25] [Server thread/INFO]: SUGAR_CANE
+[19:50:25] [Server thread/INFO]: AIR
+[19:50:25] [Server thread/INFO]: SUGAR_CANE
+[19:50:25] [Server thread/INFO]: AIR
+[19:50:25] [Server thread/INFO]: SUGAR_CANE
+[19:50:26] [Server thread/INFO]: AIR
+[19:50:26] [Server thread/INFO]: SUGAR_CANE
+[19:50:26] [Server thread/INFO]: AIR
+[19:50:26] [Server thread/INFO]: SUGAR_CANE
+[19:50:29] [Server thread/INFO]: SUGAR_CANE
+[19:50:29] [Server thread/INFO]: SUGAR_CANE
+[19:50:29] [Server thread/INFO]: SUGAR_CANE
+[19:50:29] [Server thread/INFO]: SUGAR_CANE
+[19:50:29] [Server thread/INFO]: SUGAR_CANE
+[19:50:29] [Server thread/INFO]: SUGAR_CANE
+[19:50:30] [Server thread/INFO]: SUGAR_CANE
+[19:50:30] [Server thread/INFO]: SUGAR_CANE
+[19:50:30] [Server thread/INFO]: SUGAR_CANE
+[19:50:30] [Server thread/INFO]: SUGAR_CANE
+[19:50:31] [Server thread/INFO]: SUGAR_CANE
+[19:50:31] [Server thread/INFO]: SUGAR_CANE
+[19:50:31] [Server thread/INFO]: SUGAR_CANE
+[19:50:31] [Server thread/INFO]: SUGAR_CANE
+[19:50:31] [Server thread/INFO]: SUGAR_CANE
+[19:50:31] [Server thread/INFO]: SUGAR_CANE
+[19:50:32] [Server thread/INFO]: SUGAR_CANE
+[19:50:32] [Server thread/INFO]: SUGAR_CANE
+[19:50:32] [Server thread/INFO]: SUGAR_CANE
+[19:50:32] [Server thread/INFO]: SUGAR_CANE
+[19:50:33] [Server thread/INFO]: SUGAR_CANE
+[19:50:33] [Server thread/INFO]: SUGAR_CANE
+[19:50:33] [Server thread/INFO]: SUGAR_CANE
+[19:50:33] [Server thread/INFO]: SUGAR_CANE
+[19:50:33] [Server thread/INFO]: SUGAR_CANE
+[19:50:33] [Server thread/INFO]: SUGAR_CANE
+[19:50:35] [Server thread/INFO]: SUGAR_CANE
+[19:50:35] [Server thread/INFO]: SUGAR_CANE
+[19:50:35] [Server thread/INFO]: SUGAR_CANE
+[19:50:35] [Server thread/INFO]: SUGAR_CANE
+[19:50:35] [Server thread/INFO]: SUGAR_CANE
+[19:50:35] [Server thread/INFO]: SUGAR_CANE
+[19:50:36] [Server thread/INFO]: SUGAR_CANE
+[19:50:36] [Server thread/INFO]: SUGAR_CANE
+[19:50:36] [Server thread/INFO]: SUGAR_CANE
+[19:50:36] [Server thread/INFO]: SUGAR_CANE
+[19:50:37] [Server thread/INFO]: SUGAR_CANE
+[19:50:37] [Server thread/INFO]: SUGAR_CANE
+[19:50:38] [Server thread/INFO]: SUGAR_CANE
+[19:50:38] [Server thread/INFO]: SUGAR_CANE
+[19:50:38] [Server thread/INFO]: SUGAR_CANE
+[19:50:38] [Server thread/INFO]: SUGAR_CANE
+[19:50:38] [Server thread/INFO]: SUGAR_CANE
+[19:50:38] [Server thread/INFO]: SUGAR_CANE
+[19:50:38] [Server thread/INFO]: SUGAR_CANE
+[19:50:38] [Server thread/INFO]: SUGAR_CANE
+[19:50:39] [Server thread/INFO]: SUGAR_CANE
+[19:50:39] [Server thread/INFO]: SUGAR_CANE
+[19:50:39] [Server thread/INFO]: SUGAR_CANE
+[19:50:39] [Server thread/INFO]: SUGAR_CANE
+[19:50:39] [Server thread/INFO]: SUGAR_CANE
+[19:50:39] [Server thread/INFO]: SUGAR_CANE
+[19:50:41] [Server thread/INFO]: SUGAR_CANE
+[19:50:41] [Server thread/INFO]: SUGAR_CANE
+[19:50:41] [Server thread/INFO]: SUGAR_CANE
+[19:50:41] [Server thread/INFO]: SUGAR_CANE
+[19:50:41] [Server thread/INFO]: SUGAR_CANE
+[19:50:41] [Server thread/INFO]: SUGAR_CANE
+[19:50:43] [Server thread/INFO]: SUGAR_CANE
+[19:50:43] [Server thread/INFO]: SUGAR_CANE
+[19:50:44] [Server thread/INFO]: SUGAR_CANE
+[19:50:44] [Server thread/INFO]: SUGAR_CANE
+[19:50:45] [Server thread/INFO]: SUGAR_CANE
+[19:50:45] [Server thread/INFO]: SUGAR_CANE
+[19:50:45] [Server thread/INFO]: SUGAR_CANE
+[19:50:45] [Server thread/INFO]: SUGAR_CANE
+[19:50:46] [Server thread/INFO]: SUGAR_CANE
+[19:50:46] [Server thread/INFO]: SUGAR_CANE
+[19:50:47] [Server thread/INFO]: SUGAR_CANE
+[19:50:47] [Server thread/INFO]: SUGAR_CANE
+[19:50:47] [Server thread/INFO]: SUGAR_CANE
+[19:50:47] [Server thread/INFO]: SUGAR_CANE
+[19:50:47] [Server thread/INFO]: SUGAR_CANE
+[19:50:47] [Server thread/INFO]: SUGAR_CANE
+[19:50:47] [Server thread/INFO]: SUGAR_CANE
+[19:50:47] [Server thread/INFO]: SUGAR_CANE
+[19:50:47] [Server thread/INFO]: SUGAR_CANE
+[19:50:47] [Server thread/INFO]: SUGAR_CANE
+[19:50:47] [Server thread/INFO]: SUGAR_CANE
+[19:50:47] [Server thread/INFO]: SUGAR_CANE
+[19:50:47] [Server thread/INFO]: SUGAR_CANE
+[19:50:47] [Server thread/INFO]: SUGAR_CANE
+[19:50:49] [Server thread/INFO]: SUGAR_CANE
+[19:50:49] [Server thread/INFO]: SUGAR_CANE
+[19:50:52] [Server thread/INFO]: SUGAR_CANE
+[19:50:52] [Server thread/INFO]: SUGAR_CANE
+[19:50:52] [Server thread/INFO]: SUGAR_CANE
+[19:50:52] [Server thread/INFO]: SUGAR_CANE
+[19:50:53] [Server thread/INFO]: SUGAR_CANE
+[19:50:53] [Server thread/INFO]: SUGAR_CANE
+[19:50:53] [Server thread/INFO]: SUGAR_CANE
+[19:50:53] [Server thread/INFO]: SUGAR_CANE
+[19:51:10] [Server thread/INFO]: AIR
+[19:51:10] [Server thread/INFO]: WHEAT
+[19:51:10] [Server thread/INFO]: AIR
+[19:51:10] [Server thread/INFO]: WHEAT
+[19:51:10] [Server thread/INFO]: AIR
+[19:51:10] [Server thread/INFO]: WHEAT
+[19:51:11] [Server thread/INFO]: WHEAT
+[19:51:11] [Server thread/INFO]: WHEAT
+[19:51:11] [Server thread/INFO]: WHEAT
+[19:51:11] [Server thread/INFO]: WHEAT
+[19:51:14] [Server thread/INFO]: WHEAT
+[19:51:14] [Server thread/INFO]: WHEAT
+[19:51:14] [Server thread/INFO]: WHEAT
+[19:51:14] [Server thread/INFO]: WHEAT
+[19:51:14] [Server thread/INFO]: WHEAT
+[19:51:14] [Server thread/INFO]: WHEAT
+[19:51:14] [Server thread/INFO]: WHEAT
+[19:51:14] [Server thread/INFO]: WHEAT
+[19:51:15] [Server thread/INFO]: WHEAT
+[19:51:15] [Server thread/INFO]: WHEAT
+[19:51:15] [Server thread/INFO]: WHEAT
+[19:51:15] [Server thread/INFO]: WHEAT
+[19:51:15] [Server thread/INFO]: WHEAT
+[19:51:15] [Server thread/INFO]: WHEAT
+[19:51:15] [Server thread/INFO]: WHEAT
+[19:51:15] [Server thread/INFO]: WHEAT
+[19:51:15] [Server thread/INFO]: WHEAT
+[19:51:15] [Server thread/INFO]: WHEAT
+[19:51:15] [Server thread/INFO]: WHEAT
+[19:51:15] [Server thread/INFO]: WHEAT
+[19:51:15] [Server thread/INFO]: WHEAT
+[19:51:15] [Server thread/INFO]: WHEAT
+[19:51:16] [Server thread/INFO]: WHEAT
+[19:51:16] [Server thread/INFO]: WHEAT
+[19:51:16] [Server thread/INFO]: WHEAT
+[19:51:16] [Server thread/INFO]: WHEAT
+[19:51:16] [Server thread/INFO]: WHEAT
+[19:51:16] [Server thread/INFO]: WHEAT
+[19:51:16] [Server thread/INFO]: WHEAT
+[19:51:16] [Server thread/INFO]: WHEAT
+[19:51:16] [Server thread/INFO]: WHEAT
+[19:51:16] [Server thread/INFO]: WHEAT
+[19:51:16] [Server thread/INFO]: WHEAT
+[19:51:16] [Server thread/INFO]: WHEAT
+[19:51:17] [Server thread/INFO]: WHEAT
+[19:51:17] [Server thread/INFO]: WHEAT
+[19:51:17] [Server thread/INFO]: WHEAT
+[19:51:17] [Server thread/INFO]: WHEAT
+[19:51:17] [Server thread/INFO]: WHEAT
+[19:51:17] [Server thread/INFO]: WHEAT
+[19:51:18] [Server thread/INFO]: WHEAT
+[19:51:18] [Server thread/INFO]: WHEAT
+[19:51:18] [Server thread/INFO]: WHEAT
+[19:51:18] [Server thread/INFO]: WHEAT
+[19:51:18] [Server thread/INFO]: WHEAT
+[19:51:18] [Server thread/INFO]: WHEAT
+[19:51:19] [Server thread/INFO]: WHEAT
+[19:51:19] [Server thread/INFO]: WHEAT
+[19:51:19] [Server thread/INFO]: WHEAT
+[19:51:19] [Server thread/INFO]: WHEAT
+[19:51:19] [Server thread/INFO]: WHEAT
+[19:51:19] [Server thread/INFO]: WHEAT
+[19:51:19] [Server thread/INFO]: WHEAT
+[19:51:19] [Server thread/INFO]: WHEAT
+[19:51:19] [Server thread/INFO]: WHEAT
+[19:51:19] [Server thread/INFO]: WHEAT
+[19:51:19] [Server thread/INFO]: WHEAT
+[19:51:19] [Server thread/INFO]: WHEAT
+[19:51:20] [Server thread/INFO]: WHEAT
+[19:51:20] [Server thread/INFO]: WHEAT
+[19:51:20] [Server thread/INFO]: WHEAT
+[19:51:20] [Server thread/INFO]: WHEAT
+[19:51:21] [Server thread/INFO]: WHEAT
+[19:51:21] [Server thread/INFO]: WHEAT
+[19:51:21] [Server thread/INFO]: WHEAT
+[19:51:21] [Server thread/INFO]: WHEAT
+[19:51:21] [Server thread/INFO]: WHEAT
+[19:51:21] [Server thread/INFO]: WHEAT
+[19:51:21] [Server thread/INFO]: WHEAT
+[19:51:21] [Server thread/INFO]: WHEAT
+[19:51:21] [Server thread/INFO]: WHEAT
+[19:51:21] [Server thread/INFO]: WHEAT
+[19:51:22] [Server thread/INFO]: WHEAT
+[19:51:22] [Server thread/INFO]: WHEAT
+[19:51:22] [Server thread/INFO]: WHEAT
+[19:51:22] [Server thread/INFO]: WHEAT
+[19:51:23] [Server thread/INFO]: WHEAT
+[19:51:23] [Server thread/INFO]: WHEAT
+[19:51:23] [Server thread/INFO]: WHEAT
+[19:51:23] [Server thread/INFO]: WHEAT
+[19:51:23] [Server thread/INFO]: WHEAT
+[19:51:23] [Server thread/INFO]: WHEAT
+[19:51:23] [Server thread/INFO]: WHEAT
+[19:51:23] [Server thread/INFO]: WHEAT
+[19:51:24] [Server thread/INFO]: WHEAT
+[19:51:24] [Server thread/INFO]: WHEAT
+[19:51:24] [Server thread/INFO]: WHEAT
+[19:51:24] [Server thread/INFO]: WHEAT
+[19:51:24] [Server thread/INFO]: WHEAT
+[19:51:24] [Server thread/INFO]: WHEAT
+[19:51:24] [Server thread/INFO]: WHEAT
+[19:51:24] [Server thread/INFO]: WHEAT
+[19:51:24] [Server thread/INFO]: WHEAT
+[19:51:24] [Server thread/INFO]: WHEAT
+[19:51:24] [Server thread/INFO]: WHEAT
+[19:51:24] [Server thread/INFO]: WHEAT
+[19:51:25] [Server thread/INFO]: WHEAT
+[19:51:25] [Server thread/INFO]: WHEAT
+[19:51:25] [Server thread/INFO]: WHEAT
+[19:51:25] [Server thread/INFO]: WHEAT
+[19:51:25] [Server thread/INFO]: WHEAT
+[19:51:25] [Server thread/INFO]: WHEAT
+[19:51:26] [Server thread/INFO]: WHEAT
+[19:51:26] [Server thread/INFO]: WHEAT
+[19:51:26] [Server thread/INFO]: WHEAT
+[19:51:26] [Server thread/INFO]: WHEAT
+[19:51:26] [Server thread/INFO]: WHEAT
+[19:51:26] [Server thread/INFO]: WHEAT
+[19:51:26] [Server thread/INFO]: WHEAT
+[19:51:26] [Server thread/INFO]: WHEAT
+[19:51:27] [Server thread/INFO]: WHEAT
+[19:51:27] [Server thread/INFO]: WHEAT
+[19:51:58] [Server thread/INFO]: TW3LFTH issued server command: /gamemode creative
+[19:51:58] [Server thread/INFO]: [TW3LFTH: Set own game mode to Creative Mode]
+[19:52:00] [Server thread/INFO]: FARMLAND
+[19:52:00] [Server thread/INFO]: DIRT
+[19:52:01] [Server thread/INFO]: FARMLAND
+[19:52:01] [Server thread/INFO]: FARMLAND
+[19:52:01] [Server thread/INFO]: FARMLAND
+[19:52:01] [Server thread/INFO]: DIRT
+[19:52:08] [Server thread/INFO]: TW3LFTH issued server command: /gamemode spectator
+[19:52:08] [Server thread/INFO]: [TW3LFTH: Set own game mode to Spectator Mode]
+[19:52:17] [Server thread/INFO]: TW3LFTH issued server command: /gamemode creative
+[19:52:17] [Server thread/INFO]: [TW3LFTH: Set own game mode to Creative Mode]
+[19:52:22] [Server thread/INFO]: TW3LFTH issued server command: /gamemode survival
+[19:52:22] [Server thread/INFO]: [TW3LFTH: Set own game mode to Survival Mode]
+[19:52:58] [Server thread/INFO]: TW3LFTH issued server command: /gamemode creative
+[19:52:58] [Server thread/INFO]: [TW3LFTH: Set own game mode to Creative Mode]
+[19:53:08] [Server thread/INFO]: GLASS_PANE
+[19:53:08] [Server thread/INFO]: GLASS_PANE
+[19:53:09] [Server thread/INFO]: GLASS_PANE
+[19:53:09] [Server thread/INFO]: STRIPPED_SPRUCE_WOOD
+[19:53:14] [Server thread/INFO]: STRIPPED_SPRUCE_WOOD
+[19:53:14] [Server thread/INFO]: GLASS_PANE
+[19:53:23] [Server thread/INFO]: GLASS_PANE
+[19:53:23] [Server thread/INFO]: GLASS_PANE
+[19:53:24] [Server thread/INFO]: Villager EntityVillager['Villager'/368, uuid='ec336a4e-20b1-447d-9eca-2aa5ad559b2e', l='ServerLevel[world]', x=-1054.82, y=70.00, z=914.83, cpos=[-66, 57], tl=21886, v=true] died, message: 'Villager hit the ground too hard'
+[19:53:30] [Server thread/INFO]: GLASS_PANE
+[19:53:30] [Server thread/INFO]: GLASS_PANE
+[19:53:35] [Server thread/INFO]: GLASS_PANE
+[19:53:35] [Server thread/INFO]: GLASS_PANE
+[19:53:36] [Server thread/INFO]: GLASS_PANE
+[19:53:36] [Server thread/INFO]: GLASS_PANE
+[19:53:37] [Server thread/INFO]: GLASS_PANE
+[19:53:37] [Server thread/INFO]: GLASS_PANE
+[19:53:38] [Server thread/INFO]: GLASS_PANE
+[19:53:38] [Server thread/INFO]: GLASS_PANE
+[19:56:35] [Server thread/INFO]: TW3LFTH has completed the challenge [Cover Me in Debris]
+[20:04:00] [Server thread/INFO]: TW3LFTH issued server command: /gamemode survival
+[20:04:00] [Server thread/INFO]: [TW3LFTH: Set own game mode to Survival Mode]
+[20:04:38] [Server thread/INFO]: TW3LFTH issued server command: /gamemode creative
+[20:04:38] [Server thread/INFO]: [TW3LFTH: Set own game mode to Creative Mode]
+[20:04:45] [Server thread/INFO]: TW3LFTH issued server command: /gamemode survival
+[20:04:45] [Server thread/INFO]: [TW3LFTH: Set own game mode to Survival Mode]
+[20:05:13] [Server thread/INFO]: TW3LFTH issued server command: /gamemode creative
+[20:05:13] [Server thread/INFO]: [TW3LFTH: Set own game mode to Creative Mode]
+[20:07:37] [Server thread/INFO]: END_ROD
+[20:07:37] [Server thread/INFO]: END_ROD
+[20:10:32] [Server thread/INFO]: AIR
+[20:10:32] [Server thread/INFO]: CRAFTING_TABLE
