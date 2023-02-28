@@ -83,6 +83,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_tag": "2023-02-27 21:01:41 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_pickaxe": {
     "criteria": {
       "has_iron_ingot": "2023-02-13 21:52:14 -0300"
@@ -221,6 +227,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_carpet_from_white_carpet": {
+    "criteria": {
+      "has_black_dye": "2023-02-27 23:39:54 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/purpur_stairs": {
     "criteria": {
       "has_purpur_block": "2023-02-25 19:18:18 -0300"
@@ -350,6 +362,12 @@
   "minecraft:recipes/building_blocks/red_sandstone_stairs": {
     "criteria": {
       "has_red_sandstone": "2023-02-26 02:15:51 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2023-02-27 21:01:46 -0300"
     },
     "done": true
   },
@@ -521,6 +539,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
+    "criteria": {
+      "has_pink_dye": "2023-02-27 23:40:28 -0300"
+    },
+    "done": true
+  },
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_chestplate": "2023-02-13 23:31:11 -0300"
@@ -602,6 +626,12 @@
   "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2023-02-13 21:01:16 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2023-02-27 21:01:46 -0300"
     },
     "done": true
   },
@@ -851,6 +881,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
+    "criteria": {
+      "has_blue_dye": "2023-02-27 23:40:00 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/blue_dye": {
     "criteria": {
       "has_lapis_lazuli": "2023-02-24 19:27:37 -0300"
@@ -929,9 +965,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
+    "criteria": {
+      "has_red_dye": "2023-02-27 23:40:30 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite_stairs": {
     "criteria": {
       "has_granite": "2023-02-13 22:21:42 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_blue_dye": "2023-02-27 23:40:00 -0300"
     },
     "done": true
   },
@@ -1343,14 +1391,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_black_dye": "2023-02-27 23:39:54 -0300"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:old_growth_pine_taiga": "2023-02-13 21:55:28 -0300",
       "minecraft:taiga": "2023-02-13 20:56:01 -0300",
+      "minecraft:deep_ocean": "2023-02-27 20:45:18 -0300",
       "minecraft:frozen_river": "2023-02-13 21:08:46 -0300",
+      "minecraft:sunflower_plains": "2023-02-27 20:38:03 -0300",
+      "minecraft:birch_forest": "2023-02-27 21:20:18 -0300",
       "minecraft:windswept_hills": "2023-02-14 00:10:20 -0300",
       "minecraft:bamboo_jungle": "2023-02-14 00:07:24 -0300",
       "minecraft:beach": "2023-02-14 00:02:42 -0300",
+      "minecraft:dark_forest": "2023-02-27 21:20:40 -0300",
       "minecraft:sparse_jungle": "2023-02-14 00:05:07 -0300",
       "minecraft:lukewarm_ocean": "2023-02-14 00:04:58 -0300",
       "minecraft:river": "2023-02-13 21:09:27 -0300",
@@ -1361,12 +1419,16 @@
       "minecraft:cold_ocean": "2023-02-14 00:10:56 -0300",
       "minecraft:forest": "2023-02-13 21:09:28 -0300",
       "minecraft:lush_caves": "2023-02-13 21:35:17 -0300",
+      "minecraft:deep_cold_ocean": "2023-02-27 20:39:09 -0300",
       "minecraft:frozen_ocean": "2023-02-13 21:46:03 -0300",
       "minecraft:jungle": "2023-02-14 00:06:57 -0300",
       "minecraft:ocean": "2023-02-14 00:02:45 -0300",
       "minecraft:old_growth_spruce_taiga": "2023-02-13 22:01:21 -0300",
+      "minecraft:snowy_beach": "2023-02-27 20:41:51 -0300",
       "minecraft:windswept_savanna": "2023-02-14 00:09:24 -0300",
+      "minecraft:deep_lukewarm_ocean": "2023-02-27 20:46:03 -0300",
       "minecraft:flower_forest": "2023-02-27 20:05:40 -0300",
+      "minecraft:old_growth_birch_forest": "2023-02-27 21:20:33 -0300",
       "minecraft:deep_dark": "2023-02-24 17:41:37 -0300",
       "minecraft:savanna": "2023-02-14 00:10:21 -0300",
       "minecraft:plains": "2023-02-13 22:03:34 -0300"
@@ -1493,6 +1555,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_blue_dye": "2023-02-27 23:40:00 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2023-02-13 21:01:16 -0300"
@@ -1532,6 +1600,12 @@
   "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting": {
     "criteria": {
       "has_end_stone_brick": "2023-02-25 19:44:22 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2023-02-27 21:01:46 -0300"
     },
     "done": true
   },
@@ -1652,6 +1726,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/orange_dye_from_red_yellow": {
+    "criteria": {
+      "has_red_dye": "2023-02-27 23:40:30 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2023-02-13 21:01:16 -0300"
@@ -1673,6 +1753,18 @@
   "minecraft:recipes/decorations/soul_torch": {
     "criteria": {
       "has_soul_sand": "2023-02-23 17:36:55 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
+    "criteria": {
+      "has_black_dye": "2023-02-27 23:39:54 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_candle": {
+    "criteria": {
+      "has_blue_dye": "2023-02-27 23:40:00 -0300"
     },
     "done": true
   },
@@ -1871,6 +1963,12 @@
   "minecraft:recipes/misc/white_dye": {
     "criteria": {
       "has_bone_meal": "2023-02-24 14:11:29 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_carpet_from_white_carpet": {
+    "criteria": {
+      "has_red_dye": "2023-02-27 23:40:30 -0300"
     },
     "done": true
   },
@@ -2104,6 +2202,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_blue_dye": "2023-02-27 23:40:00 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_chicken_from_smoking": {
     "criteria": {
       "has_chicken": "2023-02-13 20:56:54 -0300"
@@ -2251,6 +2355,12 @@
   "minecraft:recipes/redstone/redstone_torch": {
     "criteria": {
       "has_redstone": "2023-02-13 22:35:14 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2023-02-27 21:01:41 -0300"
     },
     "done": true
   },
@@ -2494,6 +2604,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/red_candle": {
+    "criteria": {
+      "has_red_dye": "2023-02-27 23:40:30 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magenta_stained_glass": {
     "criteria": {
       "has_glass": "2023-02-14 15:10:39 -0300"
@@ -2554,9 +2670,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_candle": {
+    "criteria": {
+      "has_black_dye": "2023-02-27 23:39:54 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cyan_concrete_powder": {
     "criteria": {
       "has_gravel": "2023-02-13 22:19:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2023-02-27 21:01:41 -0300"
     },
     "done": true
   },
@@ -2938,6 +3066,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_blue_dye": "2023-02-27 23:40:00 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_carpet_from_white_carpet": {
+    "criteria": {
+      "has_blue_dye": "2023-02-27 23:40:00 -0300"
+    },
+    "done": true
+  },
   "minecraft:adventure/ol_betsy": {
     "criteria": {
       "shot_crossbow": "2023-02-25 18:47:12 -0300"
@@ -3208,6 +3348,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/pink_candle": {
+    "criteria": {
+      "has_pink_dye": "2023-02-27 23:40:28 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
       "has_diamond": "2023-02-13 22:37:33 -0300"
@@ -3223,6 +3369,12 @@
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2023-02-13 21:52:14 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_carpet_from_white_carpet": {
+    "criteria": {
+      "has_pink_dye": "2023-02-27 23:40:28 -0300"
     },
     "done": true
   },
