@@ -347,6 +347,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_sandstone": "2023-03-03 16:14:11 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/golden_carrot": {
     "criteria": {
       "has_gold_nugget": "2023-02-24 17:07:07 -0300"
@@ -488,6 +494,12 @@
   "minecraft:recipes/building_blocks/pink_concrete_powder": {
     "criteria": {
       "has_gravel": "2023-02-22 23:24:44 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab": {
+    "criteria": {
+      "has_sandstone": "2023-03-03 16:14:11 -0300"
     },
     "done": true
   },
@@ -1424,6 +1436,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2023-03-03 16:14:11 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2023-02-24 14:29:32 -0300"
@@ -1633,9 +1651,12 @@
       "minecraft:cold_ocean": "2023-02-25 14:16:40 -0300",
       "minecraft:forest": "2023-02-22 22:35:43 -0300",
       "minecraft:lush_caves": "2023-02-25 04:33:26 -0300",
+      "minecraft:deep_cold_ocean": "2023-03-02 18:12:03 -0300",
       "minecraft:ice_spikes": "2023-02-26 02:07:22 -0300",
+      "minecraft:frozen_ocean": "2023-03-03 16:11:51 -0300",
       "minecraft:jungle": "2023-02-25 03:46:14 -0300",
       "minecraft:ocean": "2023-02-25 05:35:05 -0300",
+      "minecraft:old_growth_spruce_taiga": "2023-03-03 16:11:32 -0300",
       "minecraft:windswept_savanna": "2023-02-25 22:58:55 -0300",
       "minecraft:deep_lukewarm_ocean": "2023-02-25 05:32:36 -0300",
       "minecraft:flower_forest": "2023-02-23 19:40:57 -0300",
@@ -1908,6 +1929,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/sandstone_wall": {
+    "criteria": {
+      "has_sandstone": "2023-03-03 16:14:11 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2023-03-02 22:00:01 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_nugget_from_smelting": {
     "criteria": {
       "has_golden_horse_armor": "2023-02-23 18:50:12 -0300"
@@ -2076,6 +2109,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2023-03-03 16:14:11 -0300"
+    },
+    "done": true
+  },
   "minecraft:nether/root": {
     "criteria": {
       "entered_nether": "2023-02-24 14:18:10 -0300"
@@ -2097,6 +2136,12 @@
   "minecraft:recipes/decorations/candle": {
     "criteria": {
       "has_string": "2023-02-22 23:09:45 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2023-03-02 18:09:44 -0300"
     },
     "done": true
   },
@@ -2389,6 +2434,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2023-03-03 16:14:11 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_deepslate_slab_from_polished_deepslate_stonecutting": {
     "criteria": {
       "has_polished_deepslate": "2023-02-23 02:38:19 -0300"
@@ -2518,6 +2569,12 @@
   "minecraft:recipes/food/cooked_chicken_from_smoking": {
     "criteria": {
       "has_chicken": "2023-02-23 17:21:28 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone": {
+    "criteria": {
+      "has_sandstone": "2023-03-03 16:14:11 -0300"
     },
     "done": true
   },
@@ -2869,6 +2926,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_lapis_block": "2023-03-02 22:00:24 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magenta_stained_glass": {
     "criteria": {
       "has_glass": "2023-02-25 02:30:28 -0300"
@@ -2926,6 +2989,12 @@
   "minecraft:recipes/decorations/birch_fence": {
     "criteria": {
       "has_planks": "2023-02-25 20:33:37 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2023-03-03 16:14:11 -0300"
     },
     "done": true
   },
@@ -3247,6 +3316,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2023-03-03 16:14:11 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/warped_sign": {
     "criteria": {
       "has_planks": "2023-02-25 01:15:55 -0300"
@@ -3280,6 +3355,12 @@
   "minecraft:recipes/building_blocks/polished_deepslate_stairs": {
     "criteria": {
       "has_polished_deepslate": "2023-02-23 02:38:19 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone": {
+    "criteria": {
+      "has_sandstone": "2023-03-03 16:14:11 -0300"
     },
     "done": true
   },
@@ -3334,6 +3415,12 @@
   "minecraft:recipes/redstone/dropper": {
     "criteria": {
       "has_redstone": "2023-02-22 23:51:03 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2023-03-03 16:14:11 -0300"
     },
     "done": true
   },
