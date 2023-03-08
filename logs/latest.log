@@ -1,47 +1,47 @@
-[21:58:36] [ServerMain/INFO]: Building unoptimized datafixer
-[21:58:37] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21:58:39] [ServerMain/INFO]: Loaded 7 recipes
-[21:58:39] [Server thread/INFO]: Starting minecraft server version 1.19.3
-[21:58:39] [Server thread/INFO]: Loading properties
-[21:58:39] [Server thread/INFO]: This server is running Paper version git-Paper-396 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: bd77b78)
-[21:58:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:58:40] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:58:40] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
-[21:58:40] [Server thread/INFO]: Default game type: SURVIVAL
-[21:58:40] [Server thread/INFO]: Generating keypair
-[21:58:40] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:58:40] [Server thread/INFO]: Using default channel type
-[21:58:40] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[21:58:40] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[21:58:41] [Server thread/INFO]: [GSit] Loading GSit v1.3.7
-[21:58:41] [Server thread/INFO]: [Timber] Loading Timber v1.1.0
-[21:58:41] [Server thread/INFO]: [floodgate] Loading floodgate v2.2.0-SNAPSHOT (b74-4f36112)
-[21:58:41] [Server thread/INFO]: [floodgate] Demorou 464ms para inicializar o Floodgate
-[21:58:41] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.1.0-SNAPSHOT
-[21:58:42] [Server thread/INFO]: [Geyser-Spigot] Carregando extensões...
-[21:58:42] [Server thread/INFO]: [Geyser-Spigot] 0 extensão(ões) carregada
-[21:58:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:58:42] [Server thread/INFO]: Preparing level "world"
-[21:58:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:58:44] [Server thread/INFO]: Time elapsed: 410 ms
-[21:58:44] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[21:58:44] [Server thread/INFO]: Time elapsed: 49 ms
-[21:58:44] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:58:44] [Server thread/INFO]: Time elapsed: 33 ms
-[21:58:44] [Server thread/INFO]: [GSit] Enabling GSit v1.3.7
-[21:58:44] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
-[21:58:45] [Server thread/INFO]: [Timber] Enabling Timber v1.1.0
-[21:58:45] [Server thread/INFO]: Timber Log Materials: [OAK_LOG, ACACIA_LOG, CRIMSON_STEM, SPRUCE_LOG, JUNGLE_LOG, DARK_OAK_LOG, BIRCH_LOG, WARPED_STEM]
-[21:58:45] [Server thread/INFO]: Timber Axe Materials: [NETHERITE_AXE, IRON_AXE, GOLDEN_AXE, WOODEN_AXE, DIAMOND_AXE, STONE_AXE]
-[21:58:45] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.0-SNAPSHOT (b74-4f36112)
-[21:58:46] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.0-SNAPSHOT
-[21:58:46] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[21:58:46] [Server thread/INFO]: [Geyser-Spigot] 
-[21:58:46] [Server thread/INFO]: [Geyser-Spigot] Carregando Geyser versão 2.1.0-SNAPSHOT (git-master-e42c2d8)
-[21:58:46] [Server thread/INFO]: [Geyser-Spigot] 
-[21:58:46] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[21:58:51] [Network Listener - #1/INFO]: [Geyser-Spigot] Geyser iniciado em 0.0.0.0: 19132
-[21:58:51] [Server thread/INFO]: [Geyser-Spigot] Concluído (4,903 s)! Execute /geyser help para obter ajuda!
-[21:58:51] [Server thread/INFO]: Running delayed init tasks
-[21:58:51] [Server thread/INFO]: Done (11.731s)! For help, type "help"
-[21:58:51] [Server thread/INFO]: Timings Reset
+[18:47:56] [ServerMain/INFO]: Building unoptimized datafixer
+[18:47:57] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:47:58] [ServerMain/INFO]: Loaded 7 recipes
+[18:47:59] [Server thread/INFO]: Starting minecraft server version 1.19.3
+[18:47:59] [Server thread/INFO]: Loading properties
+[18:47:59] [Server thread/INFO]: This server is running Paper version git-Paper-396 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: bd77b78)
+[18:47:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:47:59] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:47:59] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[18:47:59] [Server thread/INFO]: Default game type: SURVIVAL
+[18:47:59] [Server thread/INFO]: Generating keypair
+[18:48:00] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:48:00] [Server thread/INFO]: Using default channel type
+[18:48:00] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[18:48:00] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[18:48:00] [Server thread/INFO]: [GSit] Loading GSit v1.3.7
+[18:48:01] [Server thread/INFO]: [Timber] Loading Timber v1.1.0
+[18:48:01] [Server thread/INFO]: [floodgate] Loading floodgate v2.2.0-SNAPSHOT (b74-4f36112)
+[18:48:01] [Server thread/INFO]: [floodgate] Demorou 439ms para inicializar o Floodgate
+[18:48:01] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.1.0-SNAPSHOT
+[18:48:01] [Server thread/INFO]: [Geyser-Spigot] Carregando extensões...
+[18:48:01] [Server thread/INFO]: [Geyser-Spigot] 0 extensão(ões) carregada
+[18:48:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:48:01] [Server thread/INFO]: Preparing level "world"
+[18:48:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:48:03] [Server thread/INFO]: Time elapsed: 180 ms
+[18:48:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:48:03] [Server thread/INFO]: Time elapsed: 23 ms
+[18:48:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:48:03] [Server thread/INFO]: Time elapsed: 18 ms
+[18:48:03] [Server thread/INFO]: [GSit] Enabling GSit v1.3.7
+[18:48:03] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[18:48:04] [Server thread/INFO]: [Timber] Enabling Timber v1.1.0
+[18:48:04] [Server thread/INFO]: Timber Log Materials: [SPRUCE_LOG, ACACIA_LOG, JUNGLE_LOG, DARK_OAK_LOG, BIRCH_LOG, CRIMSON_STEM, WARPED_STEM, OAK_LOG]
+[18:48:04] [Server thread/INFO]: Timber Axe Materials: [IRON_AXE, WOODEN_AXE, GOLDEN_AXE, DIAMOND_AXE, STONE_AXE, NETHERITE_AXE]
+[18:48:04] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.0-SNAPSHOT (b74-4f36112)
+[18:48:05] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.0-SNAPSHOT
+[18:48:05] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[18:48:05] [Server thread/INFO]: [Geyser-Spigot] 
+[18:48:05] [Server thread/INFO]: [Geyser-Spigot] Carregando Geyser versão 2.1.0-SNAPSHOT (git-master-e42c2d8)
+[18:48:05] [Server thread/INFO]: [Geyser-Spigot] 
+[18:48:05] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[18:48:08] [Network Listener - #1/INFO]: [Geyser-Spigot] Geyser iniciado em 0.0.0.0: 19132
+[18:48:08] [Server thread/INFO]: [Geyser-Spigot] Concluído (2,793 s)! Execute /geyser help para obter ajuda!
+[18:48:08] [Server thread/INFO]: Running delayed init tasks
+[18:48:08] [Server thread/INFO]: Done (8.871s)! For help, type "help"
+[18:48:08] [Server thread/INFO]: Timings Reset
